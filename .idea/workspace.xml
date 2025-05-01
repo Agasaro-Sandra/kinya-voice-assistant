@@ -5,18 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="44fdde3c-03d4-4726-8431-43f6c074fc57" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kinyaVoiceAssistant.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test_wer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/voice_assistant.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio_samples/raw/recording_20250430_222459.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio_samples/raw/recording_20250430_222511.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio_samples/raw/recording_20250430_222524.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio_samples/raw/recording_20250430_222535.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio_samples/raw/recording_20250430_222552.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio_samples/raw/recording_20250430_222939.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/debug/error_220244.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/debug/error_220256.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/debug/error_220309.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/debug/error_220321.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/debug/error_220333.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/debug/error_220345.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/debug/error_220357.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/debug/error_220603.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_wer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/voice_assistant.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +50,7 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Agasaro-Sandra/kinyaVoiceAssistant.git&quot;,
+    &quot;url&quot;: &quot;https://github.com/Agasaro-Sandra/kinya-voice-assistant.git&quot;,
     &quot;accountId&quot;: &quot;72880b1e-7fdb-4560-9d66-a4ba44f94715&quot;
   }
 }</component>
@@ -49,33 +58,37 @@
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="2wLiugYyZgQI9lPOqPRDeMUZy5S" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.create_audio_samples.executor&quot;: &quot;Run&quot;,
-    &quot;Python.generate_audio.executor&quot;: &quot;Run&quot;,
-    &quot;Python.kinya_voice_assistant.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.record_samples.executor&quot;: &quot;Run&quot;,
-    &quot;Python.voice_assistant.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/ihirwe/PycharmProjects/Kinyarwanda_Voice_AI&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.create_audio_samples.executor": "Run",
+    "Python.create_beep.executor": "Run",
+    "Python.generate_audio.executor": "Run",
+    "Python.kinya_voice_assistant.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.record_samples.executor": "Run",
+    "Python.voice_assistant.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/ihirwe/PycharmProjects/kinyaVoiceAssistant (Copy)",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "vcs.Git",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/kinya_voice_assistant" />
       <recent name="$PROJECT_DIR$/data" />
       <recent name="$PROJECT_DIR$/audio_samples/transcriptions" />
       <recent name="$PROJECT_DIR$/audio_samples" />
@@ -136,6 +149,9 @@
       <workItem from="1746027572936" duration="7296000" />
       <workItem from="1746038317778" duration="2452000" />
       <workItem from="1746041168843" duration="3703000" />
+      <workItem from="1746047222154" duration="597000" />
+      <workItem from="1746093917547" duration="2094000" />
+      <workItem from="1746099615865" duration="9258000" />
     </task>
     <servers />
   </component>
@@ -145,12 +161,25 @@
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName=".env" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/integration/test_tts.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/kinyaVoiceAssistant$create_audio_samples.coverage" NAME="create_audio_samples Coverage Results" MODIFIED="1745991968182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/kinyaVoiceAssistant$voice_assistant.coverage" NAME="voice_assistant Coverage Results" MODIFIED="1746044961383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/kinyaVoiceAssistant__Copy_$create_beep.coverage" NAME="create_beep Coverage Results" MODIFIED="1746112423761" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/speaker" />
     <SUITE FILE_PATH="coverage/kinyaVoiceAssistant$main.coverage" NAME="main Coverage Results" MODIFIED="1746035018299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/kinyaVoiceAssistant$record_samples.coverage" NAME="record_samples Coverage Results" MODIFIED="1745992720434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/kinyaVoiceAssistant$generate_audio.coverage" NAME="generate_audio Coverage Results" MODIFIED="1746034478979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/kinyaVoiceAssistant$kinya_voice_assistant.coverage" NAME="kinya_voice_assistant Coverage Results" MODIFIED="1746042329068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/kinyaVoiceAssistant__Copy_$kinya_voice_assistant.coverage" NAME="kinya_voice_assistant Coverage Results" MODIFIED="1746112407090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

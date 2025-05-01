@@ -1,5 +1,1 @@
-.venv/
-.debug/
-*.pyc
-*.mp3
-.env
+.venv

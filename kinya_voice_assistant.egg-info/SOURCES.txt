@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+kinya_voice_assistant.egg-info/PKG-INFO
+kinya_voice_assistant.egg-info/SOURCES.txt
+kinya_voice_assistant.egg-info/dependency_links.txt
+kinya_voice_assistant.egg-info/top_level.txt

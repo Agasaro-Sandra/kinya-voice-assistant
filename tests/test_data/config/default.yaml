@@ -1,0 +1,4 @@
+whisper:
+  model: "test_model"
+audio:
+  sample_rate: 16000
